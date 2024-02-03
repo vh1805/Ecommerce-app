@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@0,100;1,400&family=Mukta:wght@200&family=Poppins:wght@300;700&family=Roboto:wght@300&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: solid grey;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'roboto', serif;
+  letter-spacing: 3px;
+}
+
+.footer {
+  background-color: black; 
+  color: white;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
